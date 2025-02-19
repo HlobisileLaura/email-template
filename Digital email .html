@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Marketing Newsletter</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #fff0f6;
+        margin: 0;
+        padding: 0;
+        color: #333;
+      }
+      .container {
+        max-width: 600px;
+        margin: auto;
+        background: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+      .header {
+        background-color: #ff80ab;
+        padding: 20px;
+        text-align: center;
+        color: white;
+        font-size: 28px;
+        font-family: "Playfair Display", serif, cursive;
+      }
+      .content {
+        padding: 20px;
+        text-align: center;
+        font-family: "Playfair Display", serif;
+      }
+      .content img {
+        max-width: 100%;
+        border-radius: 8px;
+        margin: 10px 0;
+      }
+      .benefits {
+        list-style: none;
+        padding: 0;
+      }
+      .benefits li {
+        background: #ffe0ec;
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      .cta,
+      .signup-btn {
+        display: block;
+        width: 80%;
+        margin: 20px auto;
+        padding: 12px;
+        text-align: center;
+        background: #ff4081;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        border: none;
+        transition: background 0.3s, transform 0.2s;
+      }
+      .cta:hover,
+      .signup-btn:hover {
+        background: #e91e63;
+        transform: scale(1.05);
+      }
+      .footer {
+        text-align: center;
+        padding: 15px;
+        font-size: 14px;
+        color: #777;
+      }
+    </style>
+    <script>
+      function signUp() {
+        let email = prompt("Enter your email address and we will be in touch!");
+        if (email) {
+          alert("Thank you! We will reach out to " + email + " soon.");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <table class="container" cellspacing="0" cellpadding="0">
+      <tr>
+        <td class="header">Empower Your Business with Digital Marketing</td>
+      </tr>
+      <tr>
+        <td class="content">
+          <p>
+            Discover the benefits of running a digital marketing business and
+            how it can transform your income and impact!
+          </p>
+          <img src="digitalM3.jpg" alt="" />
+          <ul class="benefits">
+            <li>💡 Work from anywhere with flexibility</li>
+            <li>📈 Scale your income potential</li>
+            <li>🚀 Help businesses grow their brand online</li>
+            <li>💻 Low startup costs and high returns</li>
+            <li>🎯 Stay ahead with digital innovation</li>
+          </ul>
+          <img src="digitalM1.jpg" alt="Success Strategies" />
+          <a href="#" class="cta">Get Started Today</a>
+          <p>
+            Through dedication and strategic digital marketing, I built a
+            thriving business, generating over 6 figures in revenue. My journey
+            proves that with the right skills and mindset, financial freedom is
+            within reach! Sign up for our Digital Marketing Course today and
+            start building your own success story!
+          </p>
+          <button class="signup-btn" onclick="signUp()">
+            Sign ME UP! For The Digital Marketing Course
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td class="footer">
+          <p>Best Regards,</p>
+          <p><strong>Your Name</strong></p>
+          <p>&copy; 2025 your company name. All rights reserved.</p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
